@@ -14,7 +14,7 @@ public class TicketInfoRepository {
         items = tmp;
     }
 
-    public TicketInfo[] findAll(String from, String to) {
+    public TicketInfo[] findAll() {
         return items;
     }
 
